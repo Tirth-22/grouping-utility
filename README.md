@@ -16,13 +16,25 @@ This example project demonstrates how to group data by multiple levels — such 
 Java collections and streams API.
 
 ---
-
+# output
+```bash
+DEPSTAR:
+   Java -> Tirth
+   AI/ML -> Harshit, Krish
+   Cloud -> Prince
+   OS -> Kavy
+CSPIT:
+   Python -> Nikunj
+   Cloud -> Raxeet
+```
 # usage
 1. Clone the repository:
    ```bash
    git clone https://github.com/Tirth-22/grouping-utility.git
    cd grouping-utility
    ```
+
+---
 2. Compile and run:
    ```bash
    javac -d out src/model/*.java src/service/*.java src/Main.java
